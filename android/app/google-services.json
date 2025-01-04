@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711557251715",
+    "project_id": "harfa-fashion-shop",
+    "storage_bucket": "harfa-fashion-shop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711557251715:android:cb2745300a5b0ff28511b6",
+        "android_client_info": {
+          "package_name": "com.harfa.fashion.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2gYb4_kr6jQ41S0I80_lbZbH21h-YmfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

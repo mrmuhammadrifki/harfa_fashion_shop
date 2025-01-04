@@ -1,0 +1,1 @@
+enum Category { baju, celana, sepatu, tas, topi, dompet }

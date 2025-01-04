@@ -1,0 +1,42 @@
+name: chatting_app
+description: A new Flutter application.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+
+dependencies:
+  change_app_package_name: ^1.4.0
+  cloud_firestore: ^5.6.0
+  cupertino_icons: ^1.0.3
+  firebase_auth: ^5.3.4
+  firebase_core: ^3.9.0
+  flutter:
+    sdk: flutter
+  intl: ^0.20.1
+  provider: ^6.1.1
+  rename: ^3.0.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: fonts/Sf-Pro-Display-Regular.ttf
+          weight: 400
+        - asset: fonts/Sf-Pro-Display-Medium.ttf
+          weight: 500
+        - asset: fonts/Sf-Pro-Display-Semibold.ttf
+          weight: 600
+        - asset: fonts/Sf-Pro-Display-Bold.ttf
+          weight: 700
