@@ -68,6 +68,8 @@ class _AddProductScreenState extends State<AddProductScreen> {
                 decoration: const InputDecoration(
                   border: OutlineInputBorder(),
                   labelText: 'Kategori',
+                  hintText: 'Kategori',
+                  floatingLabelBehavior: FloatingLabelBehavior.always,
                   labelStyle: TextStyle(
                     color: BaseColor.subtitle,
                     fontSize: 16,

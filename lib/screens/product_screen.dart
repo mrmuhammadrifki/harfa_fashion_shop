@@ -79,15 +79,21 @@ class _ProductScreenState extends State<ProductScreen> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(product.name).spd14sm().textColor(),
-                Text(product.category).spd12r().grey(),
-                Text(product.price.toRupiah()).spd14m().textColor(),
-                Text(product.description).spd14r().textColor(),
-              ],
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(product.name).spd14sm().textColor(),
+                  Text(product.category).spd12r().grey(),
+                  Text(product.price.toRupiah()).spd14m().textColor(),
+                  Text(
+                    product.description,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ).spd14r().textColor(),
+                ],
+              ),
             ),
             ElevatedButton(
               onPressed: () => _goToDetailProduct(product: product),

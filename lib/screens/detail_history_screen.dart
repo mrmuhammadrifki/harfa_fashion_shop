@@ -92,6 +92,7 @@ class _DetailHistoryState extends State<DetailHistoryScreen> {
                         decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           labelText: 'Kategori',
+                          hintText: 'Kategori',
                           floatingLabelBehavior: FloatingLabelBehavior.always,
                           labelStyle: TextStyle(
                             color: BaseColor.subtitle,

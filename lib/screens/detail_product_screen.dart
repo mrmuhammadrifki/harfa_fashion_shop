@@ -93,6 +93,7 @@ class _DetailProductState extends State<DetailProductScreen> {
                         decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           labelText: 'Kategori',
+                          hintText: 'Kategori',
                           labelStyle: TextStyle(
                             color: BaseColor.subtitle,
                             fontSize: 16,
