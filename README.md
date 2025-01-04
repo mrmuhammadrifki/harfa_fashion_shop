@@ -1,4 +1,4 @@
-# chatting_app
+# harfa_fashion_shop
 
 A new Flutter project.
 
